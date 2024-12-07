@@ -1,5 +1,16 @@
 # ChurchImagePanorama
-
+## 项目背景
+Percentage of total	Criteria
+- 10%	No error when running the program.
+- 10%*	The program can reliably stitch at least 2 images.
+- 10%*	The program can reliably stitch at least 4 images.
+- 10%*	The program can reliably stitch at least 8 images.
+- 10%*	The program can reliably stitch at least 12 images.
+- 10%*	The program can reliably stitch all of the 20 images.
+- 15% (only available if the program can reliably stitch at least 4 images)	The program is largely a generic solution except the manual selection of the starting/central image.
+- 15% (only available if the program can reliably stitch at least 4 images)	The panorama image is visually plausible.
+- 5%	The program is fully generic and does not require the manual selection of the starting/central image
+- 5%	The program is well commented. The comment should explain the limitations of the program.
 ## 项目成果
 本项目成功实现了基于相位相似性评分（PSS）与 SIFT 算法的教堂图像拼接。处理 20 张图像，总耗时约 20 秒，最终效果理想，满足全部任务要求。
 ![wrong](./result/result_new1.jpg "Image Title")
@@ -33,7 +44,7 @@
 - 拼接速度有待提升，目前平均速度为 1 张/秒。
 - 低质量数据处理表现不稳定，关键点索引可能存在问题。
 ![wrong](./result/hard_stitch1.jpg "Image Title")
-![wrong](./result/hard_stitch2.png "Image Title")
+
 ## 致谢
 感谢以下资源的数据集和代码指导：
 - [Panoramic Image Stitching](https://github.com/YICHENG-LAI/Panoramic-Image-Stitching)
