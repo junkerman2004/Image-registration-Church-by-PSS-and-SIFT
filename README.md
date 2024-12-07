@@ -12,14 +12,14 @@
 - 仿射变换与图像拼接
 
 ## 目录结构与使用说明
--dataset/
--├── test_data/
--├──教堂图像/
--KeypointDetect/
--├── main_PSS.m
--├── main_SIFT.m
--Result/
--├── SIFT_output_plots/
+- dataset/
+- ├── test_data/
+- ├──教堂图像/
+- KeypointDetect/
+- ├── main_PSS.m
+- ├── main_SIFT.m
+- Result/
+- ├── SIFT_output_plots/
 
 ## 运行方式
 使用 MATLAB 打开 `main_PSS.m` 或 `main_SIFT.m` 文件，调整图片数量与路径，运行文件。
