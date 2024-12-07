@@ -33,7 +33,7 @@
 - 拼接速度有待提升，目前平均速度为 1 张/秒。
 - 低质量数据处理表现不稳定，关键点索引可能存在问题。
 ![wrong](./result/hard_stitch1.jpg "Image Title")
-![wrong](./result/hard_stitch2.jpg "Image Title")
+![wrong](./result/hard_stitch2.png "Image Title")
 ## 致谢
 感谢以下资源的数据集和代码指导：
 - [Panoramic Image Stitching](https://github.com/YICHENG-LAI/Panoramic-Image-Stitching)
